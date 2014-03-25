@@ -1,0 +1,35 @@
+'exception-reporting':
+  'userId': 'b06a6034-1e72-faa3-8719-6872cf7d3b6e'
+'release-notes':
+  'viewedVersion': '0.77.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '51a656f3fef6d83c39a5aaca726941fb21404341'
+'editor':
+  'fontSize': 13
+  'showIndentGuide': true
+  'showInvisibles': true
+  'tabLength': 4
+  'lineHeight': 1.33333
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'projectHome': '/Users/adam/Dropbox/GitHub'
+'whitespace':
+  'ensureSingleTrailingNewline': false
+  'ignoreWhitespaceOnCurrentLine': false
+'markdown-preview':
+  'grammars': [
+    'source.gfm'
+    'source.litcoffee'
+    'text.plain'
+    'text.plain.null-grammar'
+  ]
