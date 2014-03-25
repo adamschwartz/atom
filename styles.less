@@ -56,17 +56,15 @@
 
 .editor {
     .invisible-character {
-        opacity: 0
+        color: transparent;
+    }
+
+    .indent-guide {
+        box-shadow: inset 1px 0 rgba(255, 255, 255, .075)
     }
 
     .cursor-line .invisible-character {
-        opacity: .5
-    }
-
-    .line > .indent-guide:not(.leading-white-space) {
-        &, & > .invisible-character {
-            opacity: 0
-        }
+        color: rgba(255, 255, 255, .15)
     }
 }
 
